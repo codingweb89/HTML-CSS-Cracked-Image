@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.portrait {
+    width: 100vw;
+    height: 100vh;
+}
+
+.portrait img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+}
+
+.portrait .crack2 {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
